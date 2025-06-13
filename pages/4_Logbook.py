@@ -48,9 +48,10 @@ if "pelajar" in st.session_state:
 
     st.subheader("📄 Logbook Terdahulu")
     for m, t, a in lihat_logbook(no_pelajar):
-        st.markdown(f"**Minggu {m}** ({t}):
-
+        st.markdown(f"""**Minggu {m}** ({t}):  
+        
 {a}
----")
+
+---""")
 else:
     st.warning("Sila log masuk terlebih dahulu.")
