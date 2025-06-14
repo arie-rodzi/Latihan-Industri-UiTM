@@ -5,10 +5,11 @@ import os
 import hashlib
 
 # Role-based imports (assuming all relevant login files exist in pages directory)
-from login_pelajar import pelajar_interface
-from login_penyelaras import penyelaras_interface
-from login_penyelia_akademik import penyelia_akademik_interface
-from login_penyelia_industri import penyelia_industri_interface
+from pages.login_pelajar import pelajar_interface
+from pages.login_penyelaras import penyelaras_interface
+from pages.login_penyelia_akademik import penyelia_akademik_interface
+from pages.login_penyelia_industri import penyelia_industri_interface
+
 
 # Dummy credentials (replace with real verification or database lookup)
 user_db = {
